@@ -1,0 +1,130 @@
+/*Estilos de css*/
+.cabezera{
+    background: #FFFFFF;    
+
+}
+.cabezera_principal{  
+	margin: 0 auto;  
+    padding: 32px 10%;
+}
+.logo{
+    width: 100%;
+}
+.cabezera_componentes{
+    width: 100%;
+}
+.search_box{
+    margin-left: 16px;
+    
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+.search{
+    width: 20vw;
+    height: 40px;
+    background: #F5F5F5;
+    border-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border-radius: 20px 0 0 20px;
+    padding-left: 16px;
+}
+.boton_search{
+    background: none;
+    border: none;
+}
+.fa{
+    margin-right: 15px;
+    color: #A2A2A2;
+}
+.btn_login{
+    box-sizing: border-box;
+    color: #2a7ae4;
+    border: 1px solid #2a7ae4;
+    width: 182px;
+    height: 51px;    
+}
+.btn_login:hover{
+    background: #D4E4FA;
+}
+.banner_promocional{
+    
+    height: 352px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/bannerHongoMario.jpg") center / cover no-repeat;
+}
+.banner_promocional__text{
+    width: 100%; 
+    height: auto;
+    padding: 32px 10%;
+    
+}
+.title_promocional{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+}
+.descripcion_promocional{
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+.btn_promocional{
+    color: #FFFFFF;
+    background: #2A7AE4;
+    width: 129px;
+    height: 51px;
+    border-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+.btn_promocional:hover{
+    background: #5595E9;
+}
+@media screen and (max-width:1280px){
+    .cabezera_principal{
+        padding: 32px 5%;
+    }
+    .banner_promocional__text{
+        padding: 32px 5%;
+    }
+}
+@media screen and (max-width:360px){
+    .cabezera_componentes img{
+        width: 100px;
+        height: 28px;
+        order: 0;
+    }
+    .search_box{
+        background: #FFFFFF;
+        order: 2;
+    }
+    .search{
+        display: none;
+    }
+    .btn_login{
+        order: 1;
+        width: 133px;
+        height: 40px;
+
+    }
+    .title_promocional{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .descripcion_promocional{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
