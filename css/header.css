@@ -31,6 +31,7 @@
     line-height: 16px;
     border-radius: 20px 0 0 20px;
     padding-left: 16px;
+    outline: none;
 }
 .boton_search{
     background: none;
@@ -45,13 +46,14 @@
     color: #2a7ae4;
     border: 1px solid #2a7ae4;
     width: 182px;
-    height: 51px;    
+    height: 51px;   
+    border-radius: 4px; 
 }
 .btn_login:hover{
-    background: #D4E4FA;
+    background-color: #2A7AE4;
+    color: white;
 }
 .banner_promocional{
-    
     height: 352px;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url("../img/bannerHongoMario.jpg") center / cover no-repeat;
 }
@@ -88,11 +90,12 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    border-radius: 4px;
 }
 .btn_promocional:hover{
     background: #5595E9;
 }
-@media screen and (max-width:1280px){
+@media screen and (max-width:1400px){
     .cabezera_principal{
         padding: 32px 5%;
     }

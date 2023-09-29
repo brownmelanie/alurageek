@@ -18,6 +18,10 @@
 }
 .input-container{
     padding: 16px 0;
+    outline: none;
+}
+.input-container:hover::placeholder{
+    color: #2A7AE4;
 }
 .input{
     padding-left: 10px;

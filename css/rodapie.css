@@ -1,5 +1,6 @@
 /*Estilos Css*/
 .rodapie{
+    font-family: Raleway;
     background: #EAF2FD;
       
 }
@@ -42,6 +43,16 @@
     border: none;
     border-bottom: 1px solid #C8C8C8;
     margin-bottom: 8px;
+    outline: none;
+}
+.input_nombre:focus{
+    border-bottom: solid 2px #2A7AE4;
+}
+.input_nombre::placeholder{
+    font-family: Raleway;
+}
+.input_nombre:focus::placeholder{
+    color: #2A7AE4;
 }
 .input_mensaje{
     width: 100%;
@@ -51,6 +62,16 @@
     border: none;
     border-bottom: 1px solid #C8C8C8;
     margin-bottom: 8px;
+    outline:  none;
+}
+.input_mensaje:focus{
+    border-bottom: solid 2px #2A7AE4;
+}
+.input_mensaje::placeholder{
+    font-family: Raleway;
+}
+.input_mensaje:focus::placeholder{
+    color: #2A7AE4;
 }
 .btn_contacto{
     color: #FFFFFF;
@@ -63,6 +84,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    border-radius: 4px;
 }
 .btn_contacto:hover{
     background: #5595E9;
@@ -80,7 +102,7 @@
     line-height: 19px;
     text-align: center;
 }
-@media screen and (max-width:1280px){
+@media screen and (max-width:1400px){
     .menu_contacto{
         padding: 16px 5%;
     }
